@@ -1,0 +1,106 @@
+# style.css
+
+```css
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#111827;
+position:sticky;
+top:0;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+margin-bottom:30px;
+text-align:center;
+}
+
+.skill-box{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.skill-box span{
+background:#1e293b;
+padding:10px 20px;
+border-radius:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin-bottom:20px;
+border-radius:12px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+#contact{
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111827;
+}
+```
